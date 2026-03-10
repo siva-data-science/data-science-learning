@@ -1,6 +1,6 @@
 # Day 1 – Python Basics
 
-This repository contains my Day 1 practice programs from my Data Science learning journey.
+ my Day 1 practice programs from my Data Science learning journey.
 
 ## Topics Learned
 - Python introduction
