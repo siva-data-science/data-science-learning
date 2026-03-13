@@ -113,11 +113,207 @@ print(max(numbers))
 
 ---
 
-## 👨‍💻 Learning Journey
 
-I am documenting my **365-day journey to become a Data Scientist with AI skills**.
+# 📅 Day 5 – Python Lists & Basic Data Analysis
 
-Stay tuned for **Day 3** 🚀
+## ⏰ Training Plan (3 Hours)
+
+| Time   | Task                       |
+| ------ | -------------------------- |
+| 1 Hour | Understand list operations |
+| 1 Hour | Practice loops with lists  |
+| 1 Hour | Mini data analysis project |
+
+---
+
+# 🧠 Concept 1 — Working with Lists
+
+A **list** stores multiple values in a single variable.
+
+```python
+marks = [70, 80, 90, 60, 85]
+print(marks)
+```
+
+### Output
+
+```
+[70, 80, 90, 60, 85]
+```
+
+---
+
+# 🧠 Access List Elements
+
+List elements are accessed using **index numbers**.
+
+```python
+marks = [70, 80, 90, 60]
+
+print(marks[0])
+print(marks[2])
+```
+
+### Output
+
+```
+70
+90
+```
+
+⚡ **Note:** Python list indexing starts from **0**.
+
+---
+
+# 🧠 Concept 2 — Loop Through a List
+
+We can use a **for loop** to iterate through list elements.
+
+```python
+marks = [70, 80, 90]
+
+for m in marks:
+    print(m)
+```
+
+### Output
+
+```
+70
+80
+90
+```
+
+📊 This technique is widely used in **data analysis**.
+
+---
+
+# 🧠 Concept 3 — Calculate Total Marks
+
+```python
+marks = [70, 80, 90, 60]
+
+total = 0
+
+for m in marks:
+    total = total + m
+
+print("Total:", total)
+```
+
+### Output
+
+```
+Total: 300
+```
+
+---
+
+# 🧠 Concept 4 — Find Average
+
+Average Formula:
+
+```
+Average = Total / Number of values
+```
+
+### Example
+
+```python
+marks = [70, 80, 90, 60]
+
+total = sum(marks)
+
+average = total / len(marks)
+
+print("Average:", average)
+```
+
+### Output
+
+```
+Average: 75
+```
+
+---
+
+# 💻 Practice Programs
+
+## Program 1 — Find Maximum Marks
+
+```python
+marks = [65, 80, 92, 75]
+
+print("Highest marks:", max(marks))
+```
+
+### Output
+
+```
+Highest marks: 92
+```
+
+---
+
+## Program 2 — Count Students
+
+```python
+marks = [65, 80, 92, 75]
+
+print("Total students:", len(marks))
+```
+
+### Output
+
+```
+Total students: 4
+```
+
+---
+
+# 🧠 Mini Project — Student Marks Analysis
+
+This is your **first small data analysis task**.
+
+```python
+marks = [75, 82, 90, 60, 88]
+
+total = sum(marks)
+average = total / len(marks)
+highest = max(marks)
+lowest = min(marks)
+
+print("Total:", total)
+print("Average:", average)
+print("Highest:", highest)
+print("Lowest:", lowest)
+```
+
+### Output
+
+```
+Total: 395
+Average: 79
+Highest: 90
+Lowest: 60
+```
+
+📊 These are **basic statistics operations used in data science**.
+
+---
+
+# 🎯 Day 5 Goals
+
+By the end of today you should know:
+
+✔ Loop through lists
+✔ Calculate total
+✔ Calculate average
+✔ Find highest and lowest values
+
+These are **core data analysis concepts** used in real datasets.
+
+---
 
 
 ## Tools Used
